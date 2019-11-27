@@ -10,7 +10,7 @@ void setup()
 {
   Serial1.begin(115200, SERIAL_8N1, 16, 17); // pins 16 rx2, 17 tx2, 19200 bps, 8 bits no parity 1 stop bit​
   Serial.begin(9600);
-  Serial.println("ncd.io IoT Arduino Temperature Humidity eCO2 and TVOC Sensor");
+  Serial.println("ncd.io IoT Arduino CO2 Temperature Humidity Sensor");
 }
 
 
